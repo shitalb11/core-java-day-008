@@ -14,3 +14,5 @@ public class _6_Student {
         System.out.println(s);
     }
 }
+
+//using toString()

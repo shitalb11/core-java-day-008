@@ -11,3 +11,5 @@ public class _5_Student {
         System.out.println(s.name);
     }
 }
+
+//Variables + Object
