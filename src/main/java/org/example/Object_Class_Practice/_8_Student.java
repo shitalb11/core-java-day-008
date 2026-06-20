@@ -1,7 +1,9 @@
 package org.example.Object_Class_Practice;
 
 public class _8_Student {
+
     int id;
+
     _8_Student(){
         id=101;
     }
