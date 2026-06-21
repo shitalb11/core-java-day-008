@@ -10,4 +10,16 @@ public class _9_Student {
         return id == s.id;
     }
 
+    public static void main(String[] args) {
+
+        _8_Student s1 = new _8_Student();
+
+        _8_Student s2 = new _8_Student();
+
+        System.out.println(s1==s2);
+
+        System.out.println(s1.equals(s2));
+    }
 }
+
+//== vs equals()
