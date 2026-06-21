@@ -23,3 +23,5 @@ public class _8_Student {
         System.out.println(s1.equals(s2));
     }
 }
+
+//equals() Override
