@@ -9,5 +9,17 @@ public class _11_ {
 
         return id == s.id;
     }
+    public int hashcode(){
+        return id;
+    }
 
+    public static void main(String[] args) {
+        _11_ s1 = new _11_();
+        _11_ s2 = new _11_();
+
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.hashcode());
+        System.out.println(s2.hashcode());
+    }
 }
+//equals() + hashCode()
