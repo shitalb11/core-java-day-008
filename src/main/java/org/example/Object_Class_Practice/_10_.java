@@ -12,4 +12,5 @@ public class _10_ {
         System.out.println(s.hashCode());
     }
 }
+
 //hashCode()
