@@ -6,3 +6,4 @@ public class _15_ {
         System.out.println(obj);
     }
 }
+//Upcasting
