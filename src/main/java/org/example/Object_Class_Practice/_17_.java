@@ -7,4 +7,13 @@ public class _17_ implements Cloneable {
             CloneNotSupportedException{
         return super.clone();
     }
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        _17_ s1 = new _17_();
+
+        _17_ s2 = (_17_) s1.clone();
+
+        System.out.println(s1.id);
+        System.out.println(s2.id);
+    }
 }
