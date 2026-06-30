@@ -17,3 +17,5 @@ public class _17_ implements Cloneable {
         System.out.println(s2.id);
     }
 }
+
+//clone()
